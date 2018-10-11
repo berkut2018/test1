@@ -8,7 +8,7 @@ pipeline {
             echo 'hello world'
           }
         }
-        stage('') {
+        stage('stage2') {
           steps {
             emailext(subject: 'hello', body: 'world', to: 'berkut2012@hotmail.com')
           }
